@@ -6,13 +6,9 @@ The goal of this project is to create a Motion Dectection Program  by using **Op
 
 ### Main features
 
-* The program capture the motion with time & date  which  automaticly export into csv files onces the deployment closed by trigger Q btn
+* The program capture the motion with time & date  which  automaticly export into csv files onces the deployment closed by trigger Q   button
 
 * where the  second program take first program  data as input & produce a HTML Graphs by using  **Bokeh**
-
-* **Pandas** are used to Store time & date  details in csv format 
-
-* **Open CV** used for capture the motion though camara 
 
 ![Default Home view](Readme_files/no_motion.png)
 
