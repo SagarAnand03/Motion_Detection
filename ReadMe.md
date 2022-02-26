@@ -1,6 +1,6 @@
-# Introduction
+# Motion Detection
 
-The goal of this project is to create a Motion Dectection Program  by using **OpenCV** 
+The goal of this project is to create a Motion Detection Program  by using **OpenCV** 
 
 ![Default Home view](Readme_files/in_present_of_motion.png)
 
@@ -18,7 +18,7 @@ The goal of this project is to create a Motion Dectection Program  by using **Op
 
 ## Folder directory of the Project
 ```
- 📦Motion_Dectection
+ 📦Motion_Detection
  ┣ 📂Readme_files
  ┃ ┣ 📜in_motion.png
  ┃ ┣ 📜in_present_of_motion.png
