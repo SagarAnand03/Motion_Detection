@@ -6,7 +6,7 @@ The goal of this project is to create a Motion Detection Program  by using **Ope
 
 ### Main features
 
-* The program capture the motion with time & date  which  automaticly export into csv files onces the deployment closed by trigger Q   button
+* The program capture the motion where  time & date of motion automatically export into csv files onces the deployment closed by triggering/pressing  Q   button
 
 * where the  second program take first program  data as input & produce a HTML Graphs by using  **Bokeh**
 
