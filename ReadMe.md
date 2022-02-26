@@ -1,35 +1,41 @@
 # Introduction
 
-The goal of this project is to create a Motion Dectection Program  by using **OpenCV**
+The goal of this project is to create a Motion Dectection Program  by using **OpenCV** 
 
-![Default Home view](Readme_files/Home_page.png)
+![Default Home view](Readme_files/in_present_of_motion.png)
 
 ### Main features
 
-* 
+* The program capture the motion with time & date  which  automaticly export into csv files onces the deployment closed by trigger Q btn
 
-* 
+* where the  second program take first program  data as input & produce a HTML Graphs by using  **Bokeh**
 
-* 
+* **Pandas** are used to Store time & date  details in csv format 
 
-* 
+* **Open CV** used for capture the motion though camara 
 
-![Default Home view](Readme_files/output_page.png)
+![Default Home view](Readme_files/no_motion.png)
 
-* 
+* The program use 4 frame to detect the motion (Color , Grey , Delta , Threshold)
 
-![Default Home view](Readme_files/about.png)
+![Default Home view](Readme_files/in_motion.png)
 
 ## Folder directory of the Project
 ```
  📦Motion_Dectection
+ ┣ 📂Readme_files
+ ┃ ┣ 📜in_motion.png
+ ┃ ┣ 📜in_present_of_motion.png
+ ┃ ┗ 📜no_motion.png
  ┣ 📂__pycache__
- ┃ ┗ 📜MotionDetection.cpython-39.pyc
+ ┃ ┗ 📜MotionDetection.cpython-39.pyc (data not inculded)
  ┣ 📜.gitignore
+ ┣ 📜Graph.html (data not inculded)
  ┣ 📜LICENSE
  ┣ 📜MotionDetection.py
  ┣ 📜MotionDetectionGraphs.py
- ┗ 📜ReadMe.md          
+ ┣ 📜ReadMe.md
+ ┗ 📜times.csv (data not inculded)          
 
 ```
 Note:- Some of  file are only visible after  runing the development 
@@ -56,7 +62,7 @@ Pandas :
 
      pandas 1.3.5  (Used in MotionDetection)
 
-Bokeh
+Bokeh :
      
      bokeh 2.4.2   (Used in MotionDetectionGraphs)
 
@@ -93,7 +99,7 @@ Bokeh :
 
 First clone the repository from Github and switch to the new directory:
 
-     git clone 
+     git clone https://github.com/sa24449/Motion_Detection.git
      
 
 Move to Project directory:
@@ -104,6 +110,11 @@ Move to Project directory:
 You can now run the development :
 
      python MotionDetection.py
+
+
+For  Generating Graphs of output :
+
+     python MotionDetectionGraphs.py
      
 
 
